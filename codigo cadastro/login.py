@@ -10,7 +10,7 @@ def validarLogin(entradaUsuario, entradaSenha, janelaLogin):
         messagebox.showwarning("Atenção", "Por favor, preencha todos os campos.")
         return
 
-    if usuario == "admin" and senha == "senha123":
+    if usuario == "ney" and senha == "123":
         janelaLogin.destroy()
         abrirTelaPrincipal()
     else:
